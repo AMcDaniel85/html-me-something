@@ -1,7 +1,88 @@
+html {
+	margin: 0;
+	padding: 0;
+}
 
 body {
   background-image: url('./images/capsules_500.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
+  width: 100%;
+	max-width: 1024px;
+  margin: 0 auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 75%;
+  text-align: center;
+}
+
+header {
+  padding: 1.875em 0;
+  font-size: 500%;
+  font: bolder;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 5;
+  font-size: xx-large;
+}
+
+.section {
+	margin: 1.875em 0;
+}
+
+section:first-child {
+	margin-top: 0;
+}
+
+section:last-child {
+	margin-bottom: 0;
+}
+
+ul li{
+	/* text-align: center; */
+  padding: 0;
+  font-size: large;
+  list-style-type: square;
+}
+
+p {
+  padding: 1.25em;
+  font-size: medium;
+}
+
+figure {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+footer {
+	text-align: center;
+	padding: 3em;
+}
+
+#foot {
+	display: inline-block;
+}
+
+img {
+	width: 50%;
+	max-width: 50%;
+}
+
+@media screen and (max-width: 680px) {
+	nav ul li {
+		margin: 1em 0;
+		display: block;
+		font-size: 1em;
+	}
+	body {
+		font-size: 50%;
+	}
 }
