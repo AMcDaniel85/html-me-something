@@ -1,77 +1,85 @@
-html {
+html {	
+	background-image: url('./images/rx\ wallpaper.png');
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-size: cover;
 	margin: 0;
 	padding: 0;
 }
 
 body {
-  background-image: url('./images/capsules_500.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: 100% 100%;
-  width: 100%;
+  
+	width: 100%;
 	max-width: 1024px;
-  margin: 0 auto;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 75%;
-  text-align: center;
+	margin: 0 auto;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 75%;
+	text-align: center;
+	background-color: antiquewhite;	
 }
 
 header {
-  padding: 1.875em 0;
-  font-size: 500%;
-  font: bolder;
-  text-decoration: underline;
+	background-color: antiquewhite;	
+	padding: 2em 0;
+	font-size: 500%;
+	font: bolder;
+	text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 5;
-  font-size: xx-large;
+	background-color: antiquewhite;	
+	margin: 5;
+	font-size: 250%;
+	text-decoration: overline;
 }
 
 .section {
-	margin: 1.875em 0;
-}
-
-section:first-child {
-	margin-top: 0;
-}
-
-section:last-child {
-	margin-bottom: 0;
+	background-color: antiquewhite;	
+	margin: 0;
 }
 
 ul li{
-	/* text-align: center; */
-  padding: 0;
-  font-size: large;
-  list-style-type: square;
+	background-color: antiquewhite;	
+	padding: 0;
+	font-size: large;
+	list-style-position: inside;
+	list-style-type: square;
 }
 
 p {
-  padding: 1.25em;
-  font-size: medium;
+	background-color: antiquewhite;	
+	padding: 2em;
+	font-size: large;
 }
 
 figure {
+	background-color: antiquewhite;	
 	margin: 0;
 	padding: 0;
 	text-align: center;
 }
 
 figcaption {
+	background-color: antiquewhite;	
 	font-style: italic;
+	font-size: medium;
 }
 
 footer {
+	background-color: antiquewhite;	
 	text-align: center;
 	padding: 3em;
 }
 
 #foot {
+	background-color: antiquewhite;	
 	display: inline-block;
+	font: bold;
 }
 
 img {
+	background-color: antiquewhite;	
+	padding: 2em;
 	width: 50%;
 	max-width: 50%;
 }
